@@ -1,10 +1,10 @@
 {{!-- Robert Zuniga burger-block.handlebars --}}
 
 <li>
-	{{name}}
+	{{burger_name}}
 
 	<button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
-		{{#if devoured}}Eat Me!{{else}}Eaten!{{/if}}
+		{{#if devoured}}Devour It!{{else}}reorder{{/if}}
 	</button>
 
 	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
