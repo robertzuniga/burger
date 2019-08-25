@@ -26,5 +26,16 @@ app.use(routes);
 // Start our server so that it can begin listening to client requests.
 app.listen(PORT, function() {
   // Log (server-side) when our server has started
-  console.log("Server listening on: http://localhost:" + PORT);
+  console.log("--------------------------------------------------------------------------");
+  console.log("--------------------------------------------------------------------------");
+  console.log("");
+     console.log(
+              "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
+      PORT,
+      PORT
+    );
+    console.log("");
+console.log("--------------------------------------------------------------------------");
+console.log("--------------------------------------------------------------------------");
+  // console.log("Server listening on: http://localhost:" + PORT);
 });
