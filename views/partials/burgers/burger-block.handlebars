@@ -3,9 +3,9 @@
 <li>
 	{{burger_name}}
 
-	<button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
-		{{#if devoured}}devour it{{else}}reorder{{/if}}
+	<button class="change-devoured btn-sm" data-id="{{id}}" data-newdevoured="{{devoured}}">
+		{{#if devoured}}devour{{else}}reorder{{/if}}
 	</button>
 
-	<button class="delete-burger" data-id="{{this.id}}">remove it</button>
+	<button class="delete-burger btn-sm" data-id="{{this.id}}">remove</button>
 </li>
